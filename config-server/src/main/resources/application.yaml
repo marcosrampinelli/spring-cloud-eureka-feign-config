@@ -1,1 +1,21 @@
+server:
+  port: 8888
+
+# reading configuration about which port the app uses from a git-based repository
+#
+# just to checkout the config options available:
+#
+#   http://localhost:8888/application/default
+#   http://localhost:8888/application/dev
+#   http://localhost:8888/application/prod
+
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/marcosrampinelli/config-git-repository
+          search-paths:
+          - appclient-config          
 
