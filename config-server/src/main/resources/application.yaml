@@ -1,5 +1,6 @@
 server:
   port: 8888
+  
 
 # reading configuration about which port the app uses from a git-based repository
 #
@@ -18,4 +19,6 @@ spring:
           uri: https://github.com/marcosrampinelli/config-git-repository
           search-paths:
           - appclient-config          
+#  application:
+#    name: configserver
 
