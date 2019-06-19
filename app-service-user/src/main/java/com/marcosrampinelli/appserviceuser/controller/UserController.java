@@ -21,7 +21,7 @@ public class UserController {
 
 	@RequestMapping(value = "/message", method = RequestMethod.GET)
 	public String index() {
-		return "Welcome!";
+		return "Welcome to user service!";
 	}
 	
 	@GetMapping(value="/book/{bookId}", produces = MediaType.APPLICATION_JSON_VALUE)
