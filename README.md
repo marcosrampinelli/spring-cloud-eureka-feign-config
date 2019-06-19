@@ -99,6 +99,8 @@ This returns a simple JSON that has a payload containing:
 
 The **id** returned is always the same **id** of the parameter **{bookID}**. Actually, this JSON will be sent by **app-service-book**.
 
+Take a look at the Eureka dashboard now through the URL http://localhost:8761/. You'll see both services registered with Eureka.
+
 
 # Swagger
 
