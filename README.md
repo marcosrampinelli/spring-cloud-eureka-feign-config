@@ -99,3 +99,11 @@ This returns a simple JSON that has a payload containing:
 
 The **id** returned is always the same **id** of the parameter **{bookID}**. Actually, this JSON will be sent by **app-service-book**.
 
+
+# Swagger
+
+Here are the URLs to access Swagger:
+
+http://localhost:8081/swagger-ui.html
+
+http://localhost:8083/swagger-ui.html
