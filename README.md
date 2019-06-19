@@ -48,7 +48,7 @@ There is another GET endpoint exponsed which the service **app-service-user** wi
 
 http://localhost:8083/api/book/{bookId}
 
-{bookId} is a integer parameter that represents a fictitious id of a book. Here is an example of this call:
+{bookId} is a String parameter that represents a fictitious id of a book. Here is an example of this call:
 
 http://localhost:8083/api/book/1
 
