@@ -3,7 +3,7 @@ spring:
     name: appservicebook
   profiles:
     active:
-      dev
+      default
   cloud:
     config:
       enabled: true

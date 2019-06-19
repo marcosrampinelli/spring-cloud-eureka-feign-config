@@ -6,9 +6,16 @@ server:
 #
 # just to checkout the config options available:
 #
-#   http://localhost:8888/application/default
-#   http://localhost:8888/application/dev
-#   http://localhost:8888/application/prod
+#   AppServiceBook
+#   http://localhost:8888/appservicebook/dev
+#   http://localhost:8888/appservicebook/prod
+#   http://localhost:8888/appservicebook/default
+#
+#
+#   AppServiceUser
+#   http://localhost:8888/appserviceuser/dev
+#   http://localhost:8888/appserviceuser/prod
+#   http://localhost:8888/appserviceuser/default
 
 
 spring:
@@ -17,8 +24,7 @@ spring:
       server:
         git:
           uri: https://github.com/marcosrampinelli/config-git-repository
-          search-paths:
-          - appclient-config          
+          search-paths: appserviceuser, appservicebook
 #  application:
 #    name: configserver
 
