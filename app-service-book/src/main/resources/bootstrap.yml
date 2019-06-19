@@ -1,11 +1,16 @@
+# this name is listed on Eureka dashboard and it's used to get configurations from config-server
 spring:
   application:
     name: appservicebook
+    
+  # value of this property is read from config-server
   profiles:
     active:
       default
+      
+  # address of config server  
   cloud:
     config:
       enabled: true
       uri:
-      - http://localhost:8888
+      - http://localhost:8888 

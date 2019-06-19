@@ -15,7 +15,6 @@ public class BookController {
 
 	@GetMapping(value="/book/{bookId}", produces = MediaType.APPLICATION_JSON_VALUE)
 	Book getBook(@PathVariable("bookId") String bookId) {
-		
 		return new Book(bookId, "Java", "Publisher name example");
 	}
 }
